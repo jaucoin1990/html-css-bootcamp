@@ -1,0 +1,10 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  border-radius: 100%;
+  border: 20px groove;
+  background-image: url("../000_practice-image-folder/funny_cow.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

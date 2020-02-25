@@ -1,0 +1,15 @@
+.funclass {
+  width: 400px;
+  height: 200px;
+  border: 40px dashed red;
+  margin: 20px auto;
+
+}
+
+.funnerclass {
+  width: 400px;
+  height: 200px;
+  border: 40px dashed red;
+  margin: 20px auto;
+  box-sizing: border-box;
+}
