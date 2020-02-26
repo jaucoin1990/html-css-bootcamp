@@ -1,0 +1,28 @@
+html {
+  background-color: dodgerblue;
+}
+
+body {
+  width: 500px;
+  height: 1000px;
+  border: 5px solid black;
+  margin: 0 auto;
+  background-color: lawngreen;
+
+}
+
+img {
+  display: block;
+  border: 10px ridge gold;
+  border-radius: 80%;
+  margin: 0 auto;
+
+}
+
+.header-one {
+  color: blue;
+}
+
+.header-two {
+  color: red;
+}
