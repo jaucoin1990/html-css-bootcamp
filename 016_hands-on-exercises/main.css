@@ -1,0 +1,33 @@
+html {
+  font-family: serif;
+
+}
+
+.sans {
+  font-family: sans-serif;
+  font-style: italic;
+  text-transform: uppercase;
+
+}
+
+.roboto {
+  font-family: roboto;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+h1 {
+  text-shadow: 1px 1px 5px red;
+}
+
+a {
+  text-decoration: none;
+}
+
+.do-not-use {
+  text-decoration: line-through;
+}
+
+.indent {
+  text-indent: 1rem;
+}
