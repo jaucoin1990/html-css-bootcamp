@@ -1,0 +1,14 @@
+div {
+  color: green;
+}
+.fun {
+  color: blue;
+}
+
+#more-fun {
+  color: red;
+}
+
+[href] {
+  color: orange;
+}
