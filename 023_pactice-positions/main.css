@@ -1,0 +1,35 @@
+html, body, div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+}
+.footer {
+  width: 100%;
+  background-color: dodgerblue;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
+  color: white;
+  border-top: 2px solid rgba(0,0,0,0.1);
+}
+.stack {
+  width: 33%;
+  height: 120px;
+  background-color: crimson;
+  position: relative;
+  top: 100px;
+  left: 150px;
+  border-top: 2px solid rgba(255,255,255,0.2);
+  border-bottom: 2px solid rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+.stack:hover {
+  background-color: darkred;
+  border: 2px solid rgba(0,0,0,0.1);
+}
