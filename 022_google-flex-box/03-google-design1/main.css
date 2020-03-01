@@ -1,0 +1,27 @@
+main {
+  display: flex;
+  flex-flow: row wrap;
+}
+div {
+  color: white;
+}
+.c1 {
+  width: 100%;
+  background-color: darkblue;
+  height: 80px;
+}
+.j1 {
+  width: 100%;
+  border: 2px solid red;
+  height: 160px;
+}
+.c2 {
+  width: 100%;
+  background-color: dodgerblue;
+  height: 80px;
+}
+.c3 {
+  width: 100%;
+  background-color: lightblue;
+  height: 80px;
+}

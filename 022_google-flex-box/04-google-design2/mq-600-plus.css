@@ -1,0 +1,30 @@
+main {
+  flex-flow: row nowrap;
+}
+.c1, .c7 {
+  width: 20%;
+  height: 240px;
+}
+.c2, .c6 {
+  width: 10%;
+  height: 240px;
+}
+.j1 {
+  width: 40%;
+  height: 240px;
+}
+.c1 {
+  order: 2;
+}
+.c2 {
+  order: 1;
+}
+.j1 {
+  order: 3;
+}
+.c6 {
+  order: 7;
+}
+.c7 {
+  order: 6;
+}

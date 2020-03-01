@@ -1,0 +1,10 @@
+ul {
+  flex-direction: row nowrap;
+  justify-content: flex-end;
+  background-color: dodgerblue;
+}
+li {
+  width: 10%;
+  border: none;
+  margin: 0px 10px 0px 0px;
+}

@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+div{
+  color: white;
+  height: 70px;
+}
+.c1 {
+  width: 100%;
+  background-color: darkblue;
+}
+.c2 {
+  width: 100%;
+  background-color: dodgerblue;
+}
+.c3 {
+  width: 100%;
+  background-color: lightblue;
+}

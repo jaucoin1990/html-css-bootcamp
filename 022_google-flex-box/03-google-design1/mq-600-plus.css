@@ -1,0 +1,10 @@
+main {
+  flex-flow: row nowrap;
+}
+.c1 {
+  width: 15%;
+  height: 164px;
+}
+.j1 {
+  width: 85%;
+}

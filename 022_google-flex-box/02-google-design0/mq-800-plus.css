@@ -1,0 +1,17 @@
+main {
+  /* display: flex; */
+  flex-flow: row nowrap;
+}
+
+.c1 {
+  width: 60%;
+  order: 2;
+}
+.c2 {
+  width: 20%;
+  order: 1;
+}
+.c3 {
+  width: 20%;
+  order: 3;
+}

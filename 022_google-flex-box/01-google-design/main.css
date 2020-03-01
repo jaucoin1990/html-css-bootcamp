@@ -1,0 +1,29 @@
+main {
+  border: 3px solid red;
+  width: 250px;
+  display: flex;
+  flex-flow: row wrap;
+}
+div {
+  height: 50px;
+}
+.c1 {
+  background-color: darkblue;
+  width: 100%
+}
+.c2 {
+  background-color: dodgerblue;
+  width: 100%
+}
+.c3 {
+  background-color: lightblue;
+  width: 100%
+}
+.c4 {
+  background-color: aliceblue;
+  width: 100%
+}
+.c5 {
+  background-color: ghostwhite;
+  width: 100%
+}
