@@ -1,0 +1,21 @@
+body {
+  align-items: stretch;
+}
+header {
+  order: 1
+}
+.c1 {
+  width: 20%;
+  order: 2;
+}
+.c2 {
+  width: 20%;
+  order: 4;
+}
+article {
+  width: 60%;
+  order: 3;
+}
+footer {
+  order: 5;
+}
