@@ -1,0 +1,54 @@
+body div {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: ghostwhite;
+}
+.c1 {
+  width: 100%;
+  background-color: dodgerblue;
+  text-align: center;
+  color: darkblue;
+  font-size: 2rem;
+  padding: 20px;
+}
+.c2 {
+  width: 50%;
+  background-image: url("../000_practice-image-folder/funny_cow.jpeg");
+  /* if larger, could repeat along axis with the following: */
+  /* background-repeat: repeat-x; or repeat-y; */
+  /* background-size: xpx ypx; or contain; */
+  text-align: center;
+  color: crimson;
+  font-size: 2rem;
+  padding: 100px 20px;
+}
+.c3 {
+  width: 50%;
+  background-color: crimson;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding: 100px 20px;
+}
+.c4 {
+  width: 100%;
+  background-color: darkblue;
+  text-align: center;
+  color: lightblue;
+  font-size: 2rem;
+  padding: 20px;
+}
+.c5 {
+  width: 100%;
+  background-color: lightblue;
+  text-align: center;
+  color: dodgerblue;
+  font-size: 2rem;
+  padding: 20px;
+}
