@@ -1,4 +1,4 @@
-body div {
+body, div {
   padding: 0;
   border: 0;
   margin: 0;
@@ -23,6 +23,9 @@ body {
   /* if larger, could repeat along axis with the following: */
   /* background-repeat: repeat-x; or repeat-y; */
   /* background-size: xpx ypx; or contain; */
+  /* background-position: left; where your image is */
+  /* background-origin: content-box; */
+  /* background-attachment: fixed; */
   text-align: center;
   color: crimson;
   font-size: 2rem;
