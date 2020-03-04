@@ -1,0 +1,17 @@
+body, main, div, h2, p {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-size: cover;
+}
+
+.big {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+}
+h2 {
+  font-size: 2rem;
+}

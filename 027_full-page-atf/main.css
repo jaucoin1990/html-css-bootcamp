@@ -8,7 +8,7 @@ body, main, div, p, a {
 body {
   background-image: url("../000_practice-image-folder/guy.png");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-origin: padding-box;
@@ -26,12 +26,17 @@ main {
   height: 100vh;
   display: flex;
   flex-flow: row wrap;
-  align-content: center;
+  align-content: space-around;
+}
+
+h2 {
+  font-size: 1.2rem;
 }
 
 div {
   width: 100%;
   text-align: center;
+  padding: 15px;
 }
 
 p {
@@ -39,6 +44,7 @@ p {
 }
 .c3 {
   padding: 20px;
+  margin-bottom: 60px;
 }
 a {
   padding: 6px;
