@@ -34,10 +34,15 @@ header {
   align-items: center;
 }
 
+section a {
+  height: 100%;
+  display: flex;
+}
+
 .left-nav {
-  width: 50%;
+  width: 100%;
   margin: 0px 20px;
-  height: 1rem;
+  height: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: flex-start;
@@ -48,7 +53,7 @@ header {
   width: 150px;
   margin-right: 0px 500px;
   display: inline;
-  height: 1rem;
+  height: 100%;
   display: flex;
 }
 
@@ -67,6 +72,8 @@ header {
 
 .idx-header-svg {
   fill: white;
+  height: 100%;
+  /* width: 100%; */
 }
 
 main {
@@ -99,13 +106,26 @@ a {
   padding: 6px;
   text-decoration: none;
   color: white;
-  border: 1px solid white;
   border-radius: 5px;
   font-size: .7rem;
   font-weight: 700;
 }
 
-a:hover {
+section a:hover {
+  /* background-color: white; */
+  color: #3ce07e;
+}
+
+
+svg:hover {
+  fill: #3ce07e;
+}
+
+.build {
+  border: 1px solid white;
+}
+
+.build:hover {
   background-color: white;
   color: black;
 }
