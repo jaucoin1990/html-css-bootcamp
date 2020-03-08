@@ -33,13 +33,36 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
+.left-nav {
+  width: 20%;
+  margin: 0px 20px;
+  height: 1rem;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .top-nav {
-  width: 30%;
-  border: 2px solid red;
+  width: 20%;
   margin: 0px 20px;
   display: inline;
   height: 1rem;
   display: flex;
+}
+
+.idx-left-header-svg {
+  fill: white;
+  width: 15%;
+  height: 100%;
+}
+
+.site-name {
+  font-size: 1rem;
+  width: 35%;
+  font-weight: 700;
+  padding: 0px 5px;
 }
 
 .idx-header-svg {
@@ -89,7 +112,6 @@ a:hover {
 
 section {
   width: 100%;
-  background-color: black;
 }
 
 li {
