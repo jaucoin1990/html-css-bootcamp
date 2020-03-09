@@ -111,11 +111,14 @@ a {
   font-weight: 700;
 }
 
-section a:hover {
-  /* background-color: white; */
+/* section a:hover {
+  background-color: white;
+  color: #3ce07e;
+} */
+.left:hover, .left a:hover {
+  fill: #3ce07e;
   color: #3ce07e;
 }
-
 
 svg:hover {
   fill: #3ce07e;
